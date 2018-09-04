@@ -3,33 +3,33 @@ hardware
 
 Jeedom se puede instalar en varios componentes de hardware:
 
--   un ft frambuesa 2 o 3
+-   una Raspberry pi 2 o 3
 
--   Synology NAS
+-   un NAS Synology
 
 -   cualquier sistema Linux basado en Debian
 
 También puede comprar una caja confeccionada con Jeedom preinstalado
 que adicionalmente contiene un paquete de servicio (más apoyo y servicios)
-plugins disponibles de:
+y plugins disponibles de:
 
--   [Inteligente Jeedom
+-   [Jeedom Smart
     Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
 
 -   [Jeedom Smart + y Z-Wave
     RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
 
--   [Inteligente Jeedom
+-   [Jeedom Smart
     EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 
--   [Jeedom y EnOcean inteligente
+-   [Jeedom Smart EnOcean y 
     RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
-Aquí es una configuración de "tipo" para un buen comienzo con Jeedom Z-Wave:
+Esta es una configuración "tipo" para un buen comienzo con Jeedom Z-Wave:
 
-1.  Pi frambuesa 3:
+1.  Raspberry pi 3:
 
-    -   Una caja de frambuesa + \ ~ 50 €
+    -   Una Raspberry+caja \ ~ 50 €
 
     -   Una clave Aeon Gen 5 \ ~ 60 €
 
@@ -37,52 +37,52 @@ Aquí es una configuración de "tipo" para un buen comienzo con Jeedom Z-Wave:
 
     -   Un USB de potencia \ ~ € 8
 
-Un total de € 125 para una caja con domótica de código abierto
-el control completo de su instalación.
+Un total de € 125 para una caja domótica de código abierto
+con control total de su instalación.
 
-> **Tip**
+> **Truco**
 >
 > Es posible añadir o cambiar una antena RFXCOM, o
 > Clave EnOcean.
 
-> **Tip**
+> **Truco**
 >
 > Jeedom es un software que es y seguirá siendo de código abierto, su uso
-> Es completamente gratuito y no depende de una nube o
+> es completamente gratuito y no depende de una nube o
 > Suscripción. Sin embargo, algunos plugins que aumentan la
-> Capacidad de Jeedom o su uso puede ser gravosos y **
-> Es posible que tenga una conexión a Internet **. Puede encontrar
-> La lista de plugins
-> [Aquí](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
+> capacidad de Jeedom o su uso pueden ser de pago y **
+> es posible que necesiten una conexión a Internet **. Puede encontrar
+> la lista de plugins
+> [aquí](http://market.jeedom.fr/index.php?v=d&p=market&type=plugin).
 
-> **Tip**
+> **Truco**
 >
 > Service Pack? Quézako? Podéis ver
-> [Aquí](https://blog.jeedom.fr/?p=1215) los beneficios de los paquetes de servicio.
+> [aquí](https://blog.jeedom.fr/?p=1215) los beneficios de los paquetes de servicio.
 
 
 Jeedom Smart
 ===========
 
-Vous trouverez ici la documentation pas à pas pour installer ou restaurer Jeedom 
+[Aquí](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
+encontrará la documentación paso a paso para instalar o restaurar Jeedom.
 
-[ici](https://jeedom.github.io/documentation/howto/fr_FR/recovery_mode_jeedom_smart)
 
 Jeedom mini+
 ===========
 
-> **Tip**
+> **Truco**
 >
-> Le nom de l’image Jeedom peut être différent de celui des captures
-> faites dans cette documentation
+> Los nombres en Jeedom pueden ser diferentes al de las capturas
+> realizadas en esta documentación.
 
-Etape 1 : Installation de Etcher 
+Paso 1 : Instalación de Etcher 
 ---
 
-Vous devez télécharger le logicel Etcher [ici](https://etcher.io/) puis
-l’installer sur votre pc
+Tienes que descargar el software Etcher [aquí](https://etcher.io/) y luego
+instalarlo en tu PC.
 
-Etape 2 : Récupération de l’image de Jeedom 
+Paso 2 : Récupération de l’image de Jeedom 
 ---
 
 Vous devez aller
